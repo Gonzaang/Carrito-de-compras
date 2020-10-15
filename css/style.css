@@ -1,0 +1,35 @@
+.titulo {
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+.sub {
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+.sub2 {
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+.jumbo{
+    font-size: 125px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+/* ESTILO DE ITEMS */
+
+.titulo-objeto {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+.precio {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
