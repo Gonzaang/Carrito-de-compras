@@ -9,7 +9,7 @@ let Total2 = document.querySelector('#total');
 let botonvaciar = document.querySelector('#boton-vaciar');
 
 // Funcion de los Items
-function renderItems() {
+function crearItems() {
     for (let info of dbJSON) {
         
         let miObjeto = document.createElement('div');
@@ -107,7 +107,7 @@ function vaciarCarrito() {
 }
 
 botonvaciar.addEventListener('click', vaciarCarrito);
-renderItems();
+crearItems();
 }
 
  
